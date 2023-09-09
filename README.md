@@ -1,35 +1,60 @@
-# Flutter Clean Archeticture Series (Updated) 🌍
+# Flutter Clean Architecture Example
 
-"Making the world a better place"
+This is a sample Flutter project that illustrates the Clean Architecture pattern, a software architectural approach that promotes separation of concerns and maintainability.
 
-**NEW CONTENT**
+## Overview
 
-`Note: The Medium articles have been updated in 2023/02/22 as well as the source code to meet the latest changes occurred in the Flutter framework.`
+The project is structured using Clean Architecture principles, which divide the codebase into several layers:
 
-### ✅ Demo App
+1. **Presentation Layer:** This layer contains UI components, including screens, widgets, and Flutter-specific code.
+2. **Domain Layer:** Here, we define the business logic and use cases of the application. It includes the core business rules and entities.
+3. **Data Layer:** This layer manages data sources, repositories, and data models. It handles data retrieval and storage.
 
-To get started, clone this repo and run this flutter app and the result should look like this
+## Features
 
-<p align='center'>
-	<img
-		src='https://github.com/devmuaz/flutter_clean_architecture/blob/master/screenshots/flutter-clean-architecture-screenshots.png?raw=true'
-		title='Flutter Image Assets Preview'
-		alt='Flutter Image Assets Preview'
-	/>
-</p>
+- **Clean Separation of Concerns:** Clear separation between layers for better maintainability and testability.
+- **Dependency Injection:** We use the `get_it` package for managing dependencies.
+- **Sample Use Cases:** Includes sample interactions and use cases.
+- **Organized Project Structure:** A well-organized structure for easy navigation and development.
 
-### ✅ Full Articles
+## Getting Started
 
-You can check out the full **Medium** articles on [devmuaz](https://devmuaz.medium.com/)
+Follow these steps to run this project on your local machine:
 
-### ✅ Feedback
+1. **Clone the repository:**
 
-If you find something wrong or anything else, you can always reach me at
+   ```bash
+   git clone https://github.com/shahanajparvin/clean_architecture_flutter_example.git
+Navigate to the project directory:
 
-- [Instagram](https://www.instagram.com/devmuaz/)
-- [Facebook](https://www.facebook.com/devmuaz)
-- [Twitter](https://twitter.com/devmuaz)
+bash
+Copy code
+cd flutter-clean-architecture-example
+Install dependencies:
 
-## Support
+bash
+Copy code
+flutter pub get
+Run the app:
 
-If you liked the series and all stuff about it, then consider givig me support ❤️ by Clapping 👏 my Medium articles and giving this repo a Star ⭐️
+bash
+Copy code
+flutter run
+Dependencies
+We use several packages to facilitate Clean Architecture and improve developer productivity, including:
+
+get_it for dependency injection.
+
+dio for making network requests
+
+equatable for value equality.
+
+bloc for state management.
+
+For the complete list of dependencies, refer to the pubspec.yaml file.
+
+Contributing
+If you would like to contribute to this project or have suggestions for improvements, please feel free to open an issue or submit a pull request. We welcome and appreciate your contributions!
+
+License
+This project is licensed under the MIT License.
