@@ -1,0 +1,57 @@
+name: flutter_clean_architecture
+description: Flutter Clean Architecture Series
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.0
+  ionicons: ^0.2.2
+
+  # Networking
+  retrofit: ^3.3.0
+  dio: ^4.0.6
+
+  # State Management
+  flutter_bloc: ^8.1.2
+
+  # Others
+  flutter_hooks: ^0.18.5+1
+  get_it: ^7.2.0
+  floor: ^1.4.1
+  equatable: ^2.0.5
+  oktoast: ^3.3.1
+  awesome_dio_interceptor: ^0.0.2+4
+  auto_route: ^5.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  lint: ^2.0.1
+  auto_route_generator: ^5.0.3
+  retrofit_generator: ^4.1.2
+  floor_generator: ^1.4.1
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Butler
+      fonts:
+        - asset: assets/fonts/Butler_Bold.ttf
+        - asset: assets/fonts/Butler_Light.ttf
+        - asset: assets/fonts/Butler_Regular.ttf
+
+    - family: IBM
+      fonts:
+        - asset: assets/fonts/IBMPlexSans-Bold.ttf
+        - asset: assets/fonts/IBMPlexSans-Light.ttf
+        - asset: assets/fonts/IBMPlexSans-Regular.ttf
