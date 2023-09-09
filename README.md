@@ -56,9 +56,5 @@ For the complete list of dependencies, refer to the pubspec.yaml file.
 Contributing
 If you would like to contribute to this project or have suggestions for improvements, please feel free to open an issue or submit a pull request. We welcome and appreciate your contributions!
 
-License
-<<<<<<< HEAD
 This project is licensed under the MIT License.
-=======
-This project is licensed under the MIT License.
->>>>>>> b30b47e2d3bdfeeb778ba2b494bfd2d704c7712d
+
