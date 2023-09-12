@@ -1,60 +1,87 @@
-# Flutter Clean Architecture Example
+<div align="center">
+  <h1>Flutter Clean Architecture Example</h1>
+</div>
 
-This is a sample Flutter project that illustrates the Clean Architecture pattern, a software architectural approach that promotes separation of concerns and maintainability.
+<h2>Overview</h2>
 
-## Overview
+<p>The project is structured using Clean Architecture principles, which divide the codebase into several layers:</p>
 
-The project is structured using Clean Architecture principles, which divide the codebase into several layers:
+<ul>
+  <li><strong>Presentation Layer:</strong> This layer contains UI components, including screens, widgets, and Flutter-specific code.</li>
+  <li><strong>Domain Layer:</strong> Here, we define the business logic and use cases of the application. It includes the core business rules and entities.</li>
+  <li><strong>Data Layer:</strong> This layer manages data sources, repositories, and data models. It handles data retrieval and storage.</li>
+</ul>
 
-1. **Presentation Layer:** This layer contains UI components, including screens, widgets, and Flutter-specific code.
-2. **Domain Layer:** Here, we define the business logic and use cases of the application. It includes the core business rules and entities.
-3. **Data Layer:** This layer manages data sources, repositories, and data models. It handles data retrieval and storage.
+<h2>Features</h2>
 
-## Features
+<ul>
+  <li><strong>Clean Separation of Concerns:</strong> Clear separation between layers for better maintainability and testability.</li>
+  <li><strong>Dependency Injection:</strong> We use the get_it package for managing dependencies.</li>
+  <li><strong>Sample Use Cases:</strong> Includes sample interactions and use cases.</li>
+  <li><strong>Organized Project Structure:</strong> A well-organized structure for easy navigation and development.</li>
+</ul>
 
-- **Clean Separation of Concerns:** Clear separation between layers for better maintainability and testability.
-- **Dependency Injection:** We use the `get_it` package for managing dependencies.
-- **Sample Use Cases:** Includes sample interactions and use cases.
-- **Organized Project Structure:** A well-organized structure for easy navigation and development.
+<h2>Getting Started</h2>
 
-## Getting Started
+<p>Follow these steps to run this project on your local machine:</p>
 
-Follow these steps to run this project on your local machine:
+<ol>
+  <li>Clone the repository:</li>
+</ol>
 
-1. **Clone the repository:**
+<pre>
+<code>
+git clone https://github.com/shahanajparvin/clean_architecture_flutter_example.git
+</code>
+</pre>
 
-   ```bash
-   git clone https://github.com/shahanajparvin/clean_architecture_flutter_example.git
-Navigate to the project directory:
+<ol start="2">
+  <li>Navigate to the project directory:</li>
+</ol>
 
-bash
-Copy code
+<pre>
+<code>
 cd flutter-clean-architecture-example
-Install dependencies:
+</code>
+</pre>
 
-bash
-Copy code
+<ol start="3">
+  <li>Install dependencies:</li>
+</ol>
+
+<pre>
+<code>
 flutter pub get
-Run the app:
+</code>
+</pre>
 
-bash
-Copy code
+<ol start="4">
+  <li>Run the app:</li>
+</ol>
+
+<pre>
+<code>
 flutter run
-Dependencies
-We use several packages to facilitate Clean Architecture and improve developer productivity, including:
+</code>
+</pre>
 
-get_it for dependency injection.
+<h2>Dependencies</h2>
 
-dio for making network requests
+<p>We use several packages to facilitate Clean Architecture and improve developer productivity, including:</p>
 
-equatable for value equality.
+<ul>
+  <li><strong>get_it</strong> for dependency injection.</li>
+  <li><strong>dio</strong> for making network requests.</li>
+  <li><strong>equatable</strong> for value equality.</li>
+  <li><strong>bloc</strong> for state management.</li>
+</ul>
 
-bloc for state management.
+<p>For the complete list of dependencies, refer to the pubspec.yaml file.</p>
 
-For the complete list of dependencies, refer to the pubspec.yaml file.
+<h2>Contributing</h2>
 
-Contributing
-If you would like to contribute to this project or have suggestions for improvements, please feel free to open an issue or submit a pull request. We welcome and appreciate your contributions!
+<p>If you would like to contribute to this project or have suggestions for improvements, please feel free to open an issue or submit a pull request. We welcome and appreciate your contributions!</p>
 
-This project is licensed under the MIT License.
+<p>This project is licensed under the MIT License.</p>
+
 
